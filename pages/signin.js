@@ -52,7 +52,7 @@ function SignIn() {
 
     const { data } = await axios.post("/api/auth/request-message", userData, {
       headers: {
-        "content-type": "application/json",
+        "content-type": "application/json"
       },
     });
 
