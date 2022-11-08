@@ -53,7 +53,7 @@ function SignIn() {
     const { data } = await axios.post("/api/auth/request-message", userData, {
       headers: {
         "content-type": "application/json"
-      },
+      }
     });
 
     console.log("Received Signature Request From Moralis Auth API");
